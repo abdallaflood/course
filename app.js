@@ -1,9 +1,9 @@
 // let toh1=document.getElementById("h");
-let toform = document.getElementById("todoForm");
+let formElement = document.getElementById("todoForm");
 let totext = document.getElementById("text");
 let toul = document.getElementById("todoItems");
 
-toform.addEventListener("submit", (e) => {
+formElement.addEventListener("submit", (e) => {
   e.preventDefault();
   let vulText = totext.value;
   let liElement = document.createElement("li");
